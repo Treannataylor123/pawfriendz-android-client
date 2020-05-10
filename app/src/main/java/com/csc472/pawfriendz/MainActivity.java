@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
         final EditText favDog = (EditText)findViewById(R.id.editText7FavDog);
         final Button regProfile = (Button)findViewById(R.id.buttonSubmit);
         final CheckBox ownDog = (CheckBox)findViewById(R.id.checkBoxdog);
+        final EditText firstName = (EditText)findViewById(R.id.editText3FirstName);
+        final EditText lastName = (EditText)findViewById(R.id.editText4LastName);
 
         //====Setting On Click Listener For Create Profile Button ===
         regProfile.setOnClickListener(new View.OnClickListener() {
